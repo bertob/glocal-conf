@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="94.544441mm"
-   height="29.633335mm"
-   viewBox="0 0 334.99999 105.00001"
+   width="80.433334mm"
+   height="23.98889mm"
+   viewBox="0 0 285.00001 85.000003"
    id="svg10509"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="unibz design.svg">
+   sodipodi:docname="uni.svg">
   <defs
      id="defs10511">
     <clipPath
@@ -146,13 +146,13 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="142.66463"
-     inkscape:cy="54.077984"
+     inkscape:zoom="2.8"
+     inkscape:cx="100.63426"
+     inkscape:cy="57.937107"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
-     showgrid="false"
-     inkscape:snap-bbox="true"
+     showgrid="true"
+     inkscape:snap-bbox="false"
      inkscape:bbox-nodes="true"
      inkscape:bbox-paths="true"
      inkscape:snap-bbox-edge-midpoints="true"
@@ -166,16 +166,21 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1366"
-     inkscape:window-height="741"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
-     inkscape:window-maximized="1">
+     inkscape:window-width="1920"
+     inkscape:window-height="1080"
+     inkscape:window-x="1366"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true"
+     inkscape:snap-text-baseline="true"
+     inkscape:snap-page="true"
+     borderlayer="false">
     <inkscape:grid
        type="xygrid"
        id="grid10939"
-       originx="-224.99999"
-       originy="-675" />
+       originx="-250.00002"
+       originy="-685.00001" />
   </sodipodi:namedview>
   <metadata
      id="metadata10514">
@@ -193,10 +198,10 @@
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-225,-272.36221)">
+     transform="translate(-250.00002,-282.36221)">
     <g
        id="g10979"
-       transform="translate(1.071429,-1.7856981)"
+       transform="translate(1.071429,-1.7857019)"
        style="fill:#ffffff">
       <path
          inkscape:connector-curvature="0"
