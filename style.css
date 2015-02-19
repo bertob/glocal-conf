@@ -8,11 +8,11 @@ body {
   padding: 0;
 }
 body {
-	font-family: "DIN", Helvetica, Arial, sans-serif;
+	font-family: "ff-din-web", Helvetica, Arial, sans-serif;
 	font-size: 16px;
+  font-weight: 500;
 	line-height: 1.6;
-	color: #fff;
-	background-color: #ed331a;
+  color: #333;
 }
 @media screen and (min-width: 600px) {
   html, body {
@@ -39,7 +39,7 @@ p {
   margin-top: 0.2em;
 }
 a {
-	color: #fff;
+  color: #333;
 }
 a:hover,
 a:focus {
@@ -49,34 +49,89 @@ strong {
   font-style: italic;
 }
 input {
-  font-family: "DIN";
+  font-family: "ff-din-web";
   margin: 0;
+  -moz-appearance: none;
+  -webkit-appearance: none;
 }
 hr {
   border: 0;
   margin-top: 3em;
+}
+.big {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.section-title {
+  margin-bottom: 1em;
+  font-size: 1.8em;
+  color: #ed331a;
+  text-transform: uppercase;
+}
+.intro {
+  font-weight: bold;
+}
+.red {
+  color: #ed331a;
 }
 
 /* LAYOUT */
 body {
 	width: 100%;
 }
+.content-section {
+  padding: 2em 0;
+}
+.title-section {
+  overflow: hidden;
+  padding: 1em 0 2em 0;
+  color: #fff;
+  background-color: #ed331a;
+}
+.synopsis-section {
+  background-color: #ececec;
+}
+.wrap {
+  width: 85%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 500px) {
+  .wrap {
+    width: 75%;
+  }
+}
+@media screen and (min-width: 800px) {
+  .wrap {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .wrap {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .wrap {
+    width: 700px;
+  }
+}
 
 /* DoD HEADER */
 .dod-header {
   padding: 0.5em;
-  background-color: #333;
+  background-color: #FFD930;
   text-align: center;
+  font-family: "din-condensed-web";
 }
 .dod-logo {
   font-size: 1.2em;
-  font-family: "DIN Black";
 }
 .nav-element {
   display: inline-block;
   margin-left: 0.5em;
   margin-right: 0.5em;
-  color: #FFD930;
+  color: #333;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -84,7 +139,7 @@ body {
   .dod-logo {
     float: left;
     font-size: 1.2em;
-    line-height: 1.2em;
+    line-height: 1.3em;
   }
   .dod-nav {
     float: right;
@@ -96,90 +151,121 @@ body {
 }
 
 /* HERO */
-.hero {
-  width: 100%;
-  margin: 0 0 2em;
-  padding: 4em 5% 1em;
-  text-align: center;
+.huge-logo {
+  width: 80vw;
+  display: block;
+  position: relative;
+  left: 15vw;
 }
-@media screen and (min-width: 500px) {
-  .hero {
-    padding-top: 6em;
+.hero-content {
+  margin-top: -2em;
+}
+@media screen and (min-width: 400px) {
+  .hero-content {
+    margin-top: -4em;
+  }
+  .huge-logo {
+    margin-top: 1em;
   }
 }
-.hero, .head, .small .subhead {
-  margin: 0 auto;
-  text-align: center;
+@media screen and (min-width: 460px) {
+  .hero-content {
+    margin-top: -6em;
+  }
+  .huge-logo {
+    width: 70vw;
+    left: 20vw;
+  }
 }
-.head {
-  line-height: 1.3em;
-  font-size: 14vw;
-  font-weight: 500;
-  text-transform: uppercase;
-}
-.huge {
-  margin: 0;
-  font-size: 1.4em;
-  font-family: "DIN Black", Helvetica, Arial, sans-serif;
-}
-.small {
-  margin: 1em auto 2em;
-  line-height: 1em;
-  font-size: 1.5rem;
-  font-weight: bold;
-  letter-spacing: 0.1em;
-}
-.subhead {
-  margin: 1.5em 0 0;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-}
-@media screen and (min-width: 600px) {
-  .head {
-    font-size: 12vw;
+@media screen and (min-width: 700px) {
+  .huge-logo {
+    width: 50vw;
   }
 }
 @media screen and (min-width: 800px) {
-  .head {
-    font-size: 10vw;
+  .hero-content {
+    margin-top: -3em;
+  }
+  .huge-logo {
+    left: 18vw;
   }
 }
 @media screen and (min-width: 1000px) {
-  .head {
-    font-size: 8vw;
-  }
-  .huge {
-    font-size: 1.6em;
+  .huge-logo {
+    width: 40vw;
   }
 }
-
-
-/* CONTENT */
-.content {
-  width: 85%;
-  margin: 1em auto 3em;
-}
-@media screen and (min-width: 500px) {
-  .content {
-    width: 75%;
-  }
-}
-@media screen and (min-width: 800px) {
-  .content {
-    width: 60%;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .content {
-    width: 50%;
+@media screen and (min-width: 1000px) {
+  .huge-logo {
+    width: 35vw;
+    left: 14vw;
   }
 }
 @media screen and (min-width: 1400px) {
-  .content {
-    width: 700px;
+  .hero-content {
+    margin-top: -6em;
+  }
+  .huge-logo {
+    width: 30vw;
+    left: 14vw;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .hero-content {
+    margin-top: -6em;
+  }
+  .huge-logo {
+    width: 600px;
+    left: 100px;
   }
 }
 
+
+/* PROGRAM */
+.day {
+  margin-bottom: 2em;
+}
+.day:last-of-type {
+  margin-bottom: 0;
+}
+.day-info {
+  margin-bottom: 2em;
+}
+.day-program {
+
+}
+.day * {
+  font-size: 1rem;
+  line-height: 1.4;
+  margin-top: 0;
+}
+.day h1 {
+  margin: 0;
+}
+.access-info {
+  margin-top: 1em;
+  font-style: italic;
+}
+@media screen and (min-width: 450px) {
+  .day {
+    display: flex;
+  }
+  .day-info {
+    flex: 0 0 45%;
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 650px) {
+  .day {
+    display: flex;
+  }
+  .day-info {
+    flex: 0 0 35%;
+    margin-bottom: 0;
+  }
+}
+
+/* CONTENT */
 .uni-logo {
   height: 6rem;
 }
@@ -194,7 +280,7 @@ body {
 
 /* MAILCHIMP */
 .form {
-  display: flex;
+  display: block;
 }
 .email, .button {
   margin: 0;
@@ -207,13 +293,12 @@ body {
   -webkit-appearance: none;
 }
 .email {
-  flex-grow: 3;
-
+  width: 100%;
+  margin-bottom: 1em;
   background-color: white;
 }
 .button {
-  flex-grow: 0;
-
+  width: 100%;
   padding: 1em 1.4em;
   border: none;
   font-size: 1em;
@@ -227,4 +312,27 @@ body {
 }
 .button:active,.button:focus {
   background-color: #555;
+}
+@media screen and (min-width: 400px) {
+  .form {
+    display: flex;
+  }
+  .email {
+    flex-grow: 3;
+
+    width: auto;
+    margin-bottom: 0;
+  }
+  .button {
+    flex-grow: 0;
+
+    width: auto;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .email {
+    flex-grow: 0;
+
+    width: 60%;
+  }
 }
