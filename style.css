@@ -50,7 +50,7 @@ strong {
   font-style: italic;
 }
 input {
-  font-family: "ff-din-web";
+  font-family: "ff-din-web", Helvetica, Arial, sans-serif;
   margin: 0;
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -142,7 +142,7 @@ body {
   padding: 0.5em;
   background-color: #ffffba;
   text-align: center;
-  font-family: "din-condensed-web";
+  font-family: "din-condensed-web", Helvetica, Arial, sans-serif;
 }
 .dod-logo {
   font-size: 1.2em;
