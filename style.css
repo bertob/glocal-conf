@@ -65,7 +65,7 @@ hr {
 .section-title {
   margin-bottom: 1em;
   font-size: 1.8em;
-  color: #c83e28;
+  color: #ed331a;
   text-transform: uppercase;
 }
 .bold {
@@ -84,8 +84,7 @@ hr {
   color: #111;
 }
 .red {
-  /*color: #ed331a;*/
-  color: #c83e28;
+  color: #ed331a;
 }
 .yellow {
   color: #ffffba;
@@ -101,7 +100,7 @@ body {
 .title-section {
   overflow: hidden;
   padding: 1em 0 2em 0;
-  background-color: #c83e28;
+  background-color: #ed331a;
 }
 .program-section {
   background-color: #ffffba;
@@ -110,7 +109,7 @@ body {
   background-color: #ffffba;
 }
 .footer {
-  background-color: #c83e28;
+  background-color: #ed331a;
 }
 .wrap {
   width: 85%;
@@ -155,7 +154,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 360px) {
   .dod-logo {
     float: left;
     font-size: 1.2em;
@@ -315,7 +314,8 @@ body {
 .email {
   width: 100%;
   margin-bottom: 1em;
-  background-color: white;
+  background-color: #ffffba;
+  color: #ed331a;
 }
 .button {
   width: 100%;
@@ -324,7 +324,7 @@ body {
   font-size: 1em;
   font-weight: bold;
   background-color: #111;
-  color: #fff;
+  color: #ffffba;
   cursor: pointer;
 }
 .button:hover {
