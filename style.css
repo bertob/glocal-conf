@@ -43,6 +43,8 @@ p {
 }
 a {
   color: inherit;
+  text-decoration: none;
+  border-bottom: 2px solid;
 }
 a:hover,
 a:focus {
@@ -63,6 +65,9 @@ hr {
 }
 .big, .section-title {
   letter-spacing: 0.04em;
+}
+.small {
+  font-size: 0.9rem;
 }
 .section-title {
   margin-bottom: 1em;
@@ -113,6 +118,7 @@ body {
 }
 .footer {
   background-color: #ed331a;
+  border: none;
 }
 .wrap {
   width: 85%;
@@ -145,6 +151,9 @@ body {
   background-color: #ffffba;
   text-align: center;
   font-family: "din-condensed-web", Helvetica, Arial, sans-serif;
+}
+.dod-header * {
+  border: none;
 }
 .dod-logo {
   font-size: 1.2em;
@@ -253,9 +262,6 @@ body {
 .day-info {
   margin-bottom: 2em;
 }
-.day-program {
-
-}
 .day * {
   font-size: 1rem;
   line-height: 1.4;
@@ -266,7 +272,9 @@ body {
 }
 .access-info {
   margin-top: 1em;
-  font-style: italic;
+}
+time, .access-info, .access-info a, .person p, .day p {
+  font-size: 0.9rem;
 }
 @media screen and (min-width: 450px) {
   .day {
@@ -289,7 +297,7 @@ body {
 
 /* OTHER */
 .uni-logo {
-  height: 6rem;
+  height: 5rem;
 }
 .social-icon {
   width: 1rem;
@@ -302,6 +310,9 @@ body {
 .footer {
   padding: 3em 0 4em;
   font-size: 0.9em;
+}
+.no-border {
+  border: none;
 }
 
 /* MAILCHIMP */
