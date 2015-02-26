@@ -90,6 +90,7 @@ hr {
 }
 .yellow {
   color: #ffffba;
+  -webkit-font-smoothing: antialiased;
 }
 
 /* LAYOUT */
@@ -332,6 +333,7 @@ body {
   background-color: #111;
   color: #ffffba;
   cursor: pointer;
+  -webkit-font-smoothing: antialiased;
 }
 .button:hover {
   background-color: #444;
