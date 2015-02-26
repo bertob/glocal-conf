@@ -1,5 +1,7 @@
 /* RESET & TYPOGRAPHY */
 * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 html,
@@ -290,6 +292,7 @@ body {
 }
 .social-icon {
   width: 1rem;
+  height: 1rem;
   margin: 0 0.4rem -0.1rem;
 }
 .centered {
