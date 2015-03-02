@@ -261,6 +261,7 @@ body {
 }
 .day-info {
   margin-bottom: 2em;
+  padding-right: 1em;
 }
 .day * {
   font-size: 1rem;
