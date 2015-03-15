@@ -254,7 +254,7 @@ body {
 
 /* PROGRAM */
 .day {
-  margin-bottom: 3em;
+  margin-bottom: 4em;
 }
 .day:last-of-type {
   margin-bottom: 0;
