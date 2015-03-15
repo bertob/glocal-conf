@@ -61,7 +61,7 @@ input {
 }
 hr {
   border: 0;
-  margin-top: 3em;
+  margin-top: 2em;
 }
 .big, .section-title, .speaker {
   letter-spacing: 0.04em;
@@ -115,6 +115,18 @@ body {
 }
 .synopsis-section {
   background-color: #ffffba;
+}
+.directions-section {
+  background-color: #ed331a;
+}
+.directions-section h1,
+.directions-section p {
+  color: #ffffba;
+  -webkit-font-smoothing: antialiased;
+}
+.accomodation-section {
+  background-color: #ffffba;
+
 }
 .footer {
   background-color: #ed331a;
