@@ -63,7 +63,7 @@ hr {
   border: 0;
   margin-top: 3em;
 }
-.big, .section-title {
+.big, .section-title, .speaker {
   letter-spacing: 0.04em;
 }
 .small {
@@ -254,7 +254,7 @@ body {
 
 /* PROGRAM */
 .day {
-  margin-bottom: 2em;
+  margin-bottom: 3em;
 }
 .day:last-of-type {
   margin-bottom: 0;
@@ -264,7 +264,6 @@ body {
   padding-right: 1em;
 }
 .day * {
-  font-size: 1rem;
   line-height: 1.4;
   margin-top: 0;
 }
@@ -278,22 +277,48 @@ time, .access-info, .access-info a, .person p, .day p {
   font-size: 0.9rem;
 }
 @media screen and (min-width: 450px) {
-  .day {
+  .day2, .agenda-element {
     display: flex;
   }
-  .day-info {
+  .day2-info {
     flex: 0 0 45%;
     margin-bottom: 0;
   }
+  .agenda-time {
+    flex: 0 0 20%;
+  }
 }
 @media screen and (min-width: 650px) {
-  .day {
-    display: flex;
-  }
-  .day-info {
+  .day2-info {
     flex: 0 0 35%;
-    margin-bottom: 0;
   }
+  .agenda-time {
+    flex: 0 0 15%;
+  }
+}
+
+.agenda-element {
+  margin-bottom: 2em;
+}
+.agenda-time {
+  display: block;
+  margin-bottom: 0.5em;
+}
+.talk-title {
+  font-weight: 400;
+}
+.speaker {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.normal {
+  font-weight: 400;
+}
+.category {
+  color: #ed331a;
+  margin-bottom: 0.5em;
 }
 
 /* OTHER */
