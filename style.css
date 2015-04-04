@@ -68,6 +68,7 @@ hr {
 }
 .small {
   font-size: 0.9rem;
+  text-transform: lowercase;
 }
 .section-title {
   margin-bottom: 1em;
